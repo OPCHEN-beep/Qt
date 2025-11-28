@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Down.png</file>
+        <file>Left.png</file>
+        <file>Right.png</file>
+        <file>UP.png</file>
+        <file>anno.png</file>
+    </qresource>
+</RCC>
