@@ -1,0 +1,2 @@
+﻿   Qt/MSBuild: 3.4.1.0
+C:\Users\ASUS\AppData\Local\QtMsBuild\qt_vars.targets(521,5): error MSB4044: 未给任务“ReadLinesFromFile”的必需参数“File”赋值。
