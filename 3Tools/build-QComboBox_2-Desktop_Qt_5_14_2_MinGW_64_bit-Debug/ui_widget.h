@@ -43,7 +43,7 @@ public:
     void retranslateUi(QWidget *Widget)
     {
         Widget->setWindowTitle(QCoreApplication::translate("Widget", "Widget", nullptr));
-        label->setText(QCoreApplication::translate("Widget", "\350\257\267\351\200\211\344\270\255\344\275\240\347\232\204\350\200\201\345\251\206\357\274\232", nullptr));
+        label->setText(QCoreApplication::translate("Widget", "\350\257\267\351\200\211\344\270\255\344\275\240\347\232\204\351\200\211\351\241\271\357\274\232", nullptr));
     } // retranslateUi
 
 };

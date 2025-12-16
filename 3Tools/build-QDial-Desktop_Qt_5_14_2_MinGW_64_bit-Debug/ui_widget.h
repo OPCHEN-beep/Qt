@@ -30,6 +30,7 @@ public:
         dial->setObjectName(QString::fromUtf8("dial"));
         dial->setGeometry(QRect(230, 110, 201, 161));
         dial->setWrapping(true);
+        dial->setNotchTarget(10.000000000000000);
         dial->setNotchesVisible(true);
 
         retranslateUi(Widget);
