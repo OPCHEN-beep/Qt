@@ -30,6 +30,11 @@ public:
     QPushButton *pushButton_5;
     QPushButton *pushButton_6;
     QPushButton *pushButton_4;
+    QWidget *widget;
+    QVBoxLayout *verticalLayout_3;
+    QPushButton *pushButton_9;
+    QPushButton *pushButton_8;
+    QPushButton *pushButton_7;
 
     void setupUi(QWidget *Widget)
     {
@@ -38,7 +43,7 @@ public:
         Widget->resize(800, 600);
         verticalLayoutWidget = new QWidget(Widget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(60, 120, 291, 361));
+        verticalLayoutWidget->setGeometry(QRect(60, 30, 291, 361));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -59,7 +64,7 @@ public:
 
         verticalLayoutWidget_2 = new QWidget(Widget);
         verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
-        verticalLayoutWidget_2->setGeometry(QRect(420, 120, 291, 361));
+        verticalLayoutWidget_2->setGeometry(QRect(420, 30, 291, 361));
         verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -78,6 +83,27 @@ public:
 
         verticalLayout_2->addWidget(pushButton_4);
 
+        widget = new QWidget(Widget);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(250, 420, 251, 161));
+        verticalLayout_3 = new QVBoxLayout(widget);
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
+        verticalLayout_3->setContentsMargins(0, 0, 0, 0);
+        pushButton_9 = new QPushButton(widget);
+        pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
+
+        verticalLayout_3->addWidget(pushButton_9);
+
+        pushButton_8 = new QPushButton(widget);
+        pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
+
+        verticalLayout_3->addWidget(pushButton_8);
+
+        pushButton_7 = new QPushButton(widget);
+        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
+
+        verticalLayout_3->addWidget(pushButton_7);
+
 
         retranslateUi(Widget);
 
@@ -93,6 +119,9 @@ public:
         pushButton_5->setText(QCoreApplication::translate("Widget", "PushButton", nullptr));
         pushButton_6->setText(QCoreApplication::translate("Widget", "PushButton", nullptr));
         pushButton_4->setText(QCoreApplication::translate("Widget", "PushButton", nullptr));
+        pushButton_9->setText(QCoreApplication::translate("Widget", "PushButton", nullptr));
+        pushButton_8->setText(QCoreApplication::translate("Widget", "PushButton", nullptr));
+        pushButton_7->setText(QCoreApplication::translate("Widget", "PushButton", nullptr));
     } // retranslateUi
 
 };
