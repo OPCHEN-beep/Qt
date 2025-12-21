@@ -1,0 +1,5 @@
+QPushButton
+{
+    color : green;
+    font-size : 50px;
+}
